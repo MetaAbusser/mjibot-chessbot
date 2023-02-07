@@ -257,33 +257,7 @@ gameId = "iu9A6pD5"
 openingBook = "Titans.bin"
 
 if __name__ == "__main__":
-    class cat:
-        def __init__(self, id):
-            self.ID = id
-
-
-    # containment
-    class human:
-        def __init__(self):
-            self.pet = cat(0)
-
-        def murder(self):
-            self.pet = cat(0)
-
-
-    george = human()
-    george.pet = cat(69)
-
-    panikkos = human()
-    panikkos.pet = cat(420)
-
-    print(george.pet.ID)
-    print(panikkos.pet.ID)
-
-    panikkos.murder()
-    print(george.pet.ID)
-    print(panikkos.pet.ID)
-
+    # beBot(depth=3)
     beBotTimed()
 
 
