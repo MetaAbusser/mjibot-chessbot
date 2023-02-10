@@ -189,7 +189,7 @@ def beBot(depth):
         next_move, evaluation, _ = findBestMove(Chess_board, depth)
         # ---
         et = time.time()
-        # playMove(next_move)
+        playMove(next_move)
 
         Chess_board.push(next_move)
         print(Chess_board)
