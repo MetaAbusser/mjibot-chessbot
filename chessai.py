@@ -251,9 +251,9 @@ def beBotTimed():
         print(f'computation time: {timeTaken :.2f}s')
 
 
-key = "lip_BJZAZkE7i3qIhkVWu9C7"  # my bot's lichess API key ( top secret 0.0 )
+key = ""  # API KEY
 headers = {'Authorization': f'Bearer {key}'}
-gameId = "iu9A6pD5"
+gameId = "" # fill in
 openingBook = "Titans.bin"
 
 if __name__ == "__main__":
