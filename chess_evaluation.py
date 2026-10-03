@@ -272,7 +272,7 @@ def materialScore(board, team=chess.WHITE):
 
     boardFlip = board.copy()
     boardFlip.apply_transform(chess.flip_horizontal)  # i have no idea why this step is necessary
-    # but the mask is flipped without it for some fucking reason so im just flipping the board
+    # but the mask is flipped without it for some reason so im just flipping the board
 
     for piece in chess.PIECE_TYPES:
         piece_mask = boardFlip.pieces(piece, chess.WHITE).mask  # mask as integer
